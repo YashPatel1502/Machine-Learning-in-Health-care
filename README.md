@@ -1,4 +1,4 @@
-# Developed by student of DEPSTAR CSE2 
+# Developed by students of DEPSTAR CSE2 
 ## Yash D. Patel(18DCS086) 
 ## Janushi Shastri(18DCS116)
 ## Shraddha Tandel(18DCS127).
