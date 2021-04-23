@@ -21,6 +21,7 @@ Breast Cancer | Naive Bayes | 97.38%
 Heart Disease | Logistic Regression | 88.53%
 Kidney Disease | Random Forest & Naive Bayes | 100%
 Liver Disease | XGBoost | 77.77%
+We have compared accuracy of all the algorithms and then selected the best algorithm for that particular disease.
 
 
 
