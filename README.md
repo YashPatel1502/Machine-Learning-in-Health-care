@@ -6,19 +6,17 @@ This webapp was developed using Flask Web Framework and was deployed on Heroku s
 * Heart Disease
 * Kidney Disease
 * Liver Disease
-* Malaria
-* Pneumonia
 
-## Models with their Accuracy of Prediction
+
+## Models giving best Accuracy of Prediction
 Disease | Type of Model | Accuracy
 --- | --- | ---
-Diabetes | Machine Learning Model | 98.25%
-Breast Cancer | Machine Learning Model | 98.25%
-Heart Disease | Machine Learning Model | 85.25%
-Kidney Disease | Machine Learning Model | 99%
-Liver Disease | Machine Learning Model | 78%
-Malaria | Deep Learning Model(CNN) | 96%
-Pneumonia | Deep Learning Model(CNN) | 95%
+Diabetes | Logistic Regression | 80%
+Breast Cancer | Naive Bayes | 97.38%
+Heart Disease | Logistic Regression | 88.53%
+Kidney Disease | Random Forest & Naive Bayes | 100%
+Liver Disease | XGBoost | 77.77%
+
 
 ## NOTE
 ==> You can access the website live at: https://kvg-disease-predictor.herokuapp.com <br>
@@ -43,8 +41,7 @@ All the datasets were used from kaggle.
 * [Heart Disease Dataset](https://www.kaggle.com/ronitf/heart-disease-uci)
 * [Kidney Disease Dataset](https://www.kaggle.com/mansoordaku/ckdisease)
 * [Liver Disease Dataset](https://www.kaggle.com/uciml/indian-liver-patient-records)
-* [Malaria Dataset](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria)
-* [Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
 
 ## Links for Python Notebooks used for model creation
 * [Diabetes Notebook](https://github.com/venugopalkadamba/Multi_Disease_Predictor/blob/master/Python%20Notebooks/Diabetes_Prediction.ipynb)
