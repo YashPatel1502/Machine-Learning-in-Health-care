@@ -1,9 +1,9 @@
 # Developed by student of DEPSTAR CSE2 
-##Yash D. Patel(18DCS086) 
-##Janushi Shastri(18DCS116)
-##Shraddha Tandel(18DCS127).
+## Yash D. Patel(18DCS086) 
+## Janushi Shastri(18DCS116)
+## Shraddha Tandel(18DCS127).
 
-#------ Multiple Disease Predictor ------
+# ------ Multiple Disease Predictor ------
 ## About
 This webapp was developed using Flask Web Framework . The models used to predict the diseases were trained on large Datasets. All the links for datasets and the python notebooks used for model creation are mentioned below in this readme. The webapp can predict following Diseases:
 * Diabetes
