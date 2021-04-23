@@ -1,0 +1,212 @@
+{% extends 'main.html' %}
+{% block content %}
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide" src="../static/last.png" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption text-left">
+                                <h1>Experience the power of AI in HealthCare</h1>
+                                <p>Application of AI in the healthcare can have a major impact on the daily working routine of the Doctors. It can reduce the workload of the doctors immensly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="second-slide" src="../static/sec.png" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Making the Big World for Healthcare Smaller</h1>
+                                <p>Still in 2020 many people are not able to get proper healthcare services because of not a wide reach of the doctors and hospitals. Using AI people can have a personal doctor at home.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="third-slide" src="../static/elec_3.jpg" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <h1>AI is the new electricity</h1>
+                                <p>AI is powering personal devices in our homes and offices similarly to electricity. AI will be the next big thing after the electricity that will hugely impact our daily life</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="container marketing">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="rounded-circle" src="../static/time.jpg" alt="CLock Image" width="140" height="140">
+                        <h2>Quick Prediction</h2>
+                        <p>We have used light ML model that can load within no time without compromising on the accuracy of the prediction. Light models quickly load which helps in better response of the page.</p>
+                        
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-lg-4">
+                            <img class="rounded-circle" src="../static/range.png" alt="Checklist image" width="140" height="140">
+                            <h2>Wide Range</h2>
+                            <p>This Web-App provides a wide range of predicting the contamination multiple infectious diseases like Kidney disease, Diabetes, Liver Infection, Heart Disease & Breast Cancer.</p>
+                            
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-4">
+                                <img class="rounded-circle" src="../static/accuracy.jpg" alt="Accuracy Image" width="140" height="140">
+                                <h2>Highly Accurate</h2>
+                                <p>Though this app provides a wide range and high speed the accuracy has not been compromised. Hyper-parameters have been selected very carefully so that the accuracy is not hampered.</p>
+                                
+                                </div><!-- /.col-lg-4 -->
+                                </div><!-- /.row -->
+                                <!-- START THE FEATURETTES -->
+                                <hr class="featurette-divider">
+                                <div class="row featurette">
+                                    <div class="col-md-7">
+                                        <h2 class="featurette-heading">Less Doctors<span class="text-muted">: India is facing a huge shortage of Doctors</span></h2>
+                                        <p class="lead">The shortage of professionals like doctors, nurses, technicians and infrastructure as given by the report of WHO that 0.76 doctors and 2.09 nurses are present per 1000 people. Additionally, Indian healthcare is also facing acute shortage of hospital beds with 1.3 hospital beds per 1000 population.</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../static/doc.jpg.png" alt="Health Care Professionals">
+                                    </div>
+                                </div>
+                                <hr class="featurette-divider">
+                                <div class="row featurette">
+                                    <div class="col-md-7 order-md-2">
+                                        <h2 class="featurette-heading">Low Accessibility<span class="text-muted">: Non-uniform Accessibility to Healthcare across nation</span></h2>
+                                        <p class="lead">The physical access to hospitals is still the major barrier to both preventive and curative health services, and also the major differences between the Rural and the Urban India. By making use of web technology and AI people in remote areas can also get access to the health-care.</p>
+                                    </div>
+                                    <div class="col-md-5 order-md-1">
+                                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../static/access.jpg" alt="Generic placeholder image">
+                                    </div>
+                                </div>
+                                <hr class="featurette-divider">
+                                <div class="row featurette">
+                                    <div class="col-md-7">
+                                        <h2 class="featurette-heading">Affordability: <span class="text-muted">Good healthcare facilities still a dream of the common people in India</span></h2>
+                                        <p class="lead">It is the biggest problem many Poor and marginalised are hit the most as by the government estimates, approx. 63 million people are faced with poverty every year because of their healthcare expenditure. Using the technology in a better way healthcare can be made affordable for everyone</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="../static/afford.png"alt="Generic placeholder image">
+                                    </div>
+                                </div>
+                                <hr class="featurette-divider">
+                                <!-- /END THE FEATURETTES -->
+                                </div><!-- /.container -->
+                                <!-- FOOTER -->
+<!-- {% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;">
+        <h2>This is basic Machine Learning and Deep Learning based WebApp.</h2>
+        <p>These Machine Learning models and Deep Leaning models are trained on large datasets and thousands of images.</p>
+        <br>
+        <h2>Model Accuracies:</h2>
+        <ul>
+            <li>Diabetes Model: <strong>98.25%</strong></li>
+            <li>Breast Cancer Model: <strong>98.25%</strong></li>
+            <li>Heart Disease Model: <strong>85.25%</strong></li>
+            <li>Kidney Disease Model: <strong>99%</strong></li>
+            <li>Liver Disease Model: <strong>78%</strong></li>
+            <li>Malaria Model: <strong>96%</strong></li>
+            <li>Pneumonia Model: <strong>95%</strong></li>
+        </ul>
+        <br>
+        <h3>Information about the Diseases which this webApp can predict.</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Diabetes</h4>
+                <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Urinating often.</li>
+                    <li>Feeling very thirsty.</li>
+                    <li>Extreme fatigue.</li>
+                    <li>Blurry vision.</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Breast Cancer</h4>
+                <p>Breast cancer is cancer that forms in the cells of the breasts.
+
+                    After skin cancer, breast cancer is the most common cancer diagnosed in women in the United States. Breast cancer can occur in both men and women, but it's far more common in women.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>A breast lump or thickening that feels different from the surrounding tissue</li>
+                    <li>Change in the size, shape or appearance of a breast</li>
+                    <li>Changes to the skin over the breast, such as dimpling</li>
+                    <li>Redness or pitting of the skin over your breast, like the skin of an orange</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Chronic kidney disease</h4>
+                <p>Chronic kidney disease, also called chronic kidney failure, describes the gradual loss of kidney function. Your kidneys filter wastes and excess fluids from your blood, which are then excreted in your urine. When chronic kidney disease reaches an advanced stage, dangerous levels of fluid, electrolytes and wastes can build up in your body.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Nausea</li>
+                    <li>Vomiting</li>
+                    <li>Fatigue and weakness</li>
+                    <li>Muscle twitches and cramps</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Liver disease</h4>
+                <p>Symptoms of liver disease can vary, but they often include swelling of the abdomen and legs, bruising easily, changes in the color of your stool and urine, and jaundice, or yellowing of the skin and eyes. Sometimes there are no symptoms. Tests such as imaging tests and liver function tests can check for liver damage and help to diagnose liver diseases.</p>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Malaria</h4>
+                <p>Malaria is a mosquito-borne infectious disease that affects humans and other animals. Malaria causes symptoms that typically include fever, tiredness, vomiting, and headaches. In severe cases it can cause yellow skin, seizures, coma, or death. Symptoms usually begin ten to fifteen days after being bitten by an infected mosquito. If not properly treated, people may have recurrences of the disease months later.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Fever. This is the most common symptom.</li>
+                    <li>Chills</li>
+                    <li>Headache</li>
+                    <li>Nausea and vomiting</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Pneumonia</h4>
+                <p>Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus (purulent material), causing cough with phlegm or pus, fever, chills, and difficulty breathing. A variety of organisms, including bacteria, viruses and fungi, can cause pneumonia.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Cough, which may produce greenish, yellow or even bloody mucus.</li>
+                    <li>Fever, sweating and shaking chills.</li>
+                    <li>Shortness of breath.</li>
+                    <li>Rapid, shallow breathing.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div> -->
+{% endblock %}
