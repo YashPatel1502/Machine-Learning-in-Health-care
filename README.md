@@ -1,6 +1,6 @@
 # Multiple Disease Predictor
 ## About
-This webapp was developed using Flask Web Framework and was deployed on Heroku server. The models used to predict the diseases were trained on large Datasets. All the links for datasets and the python notebooks used for model creation are mentioned below in this readme. The webapp can predict following Diseases:
+This webapp was developed using Flask Web Framework . The models used to predict the diseases were trained on large Datasets. All the links for datasets and the python notebooks used for model creation are mentioned below in this readme. The webapp can predict following Diseases:
 * Diabetes
 * Breast Cancer
 * Heart Disease
@@ -18,10 +18,6 @@ Kidney Disease | Random Forest & Naive Bayes | 100%
 Liver Disease | XGBoost | 77.77%
 
 
-## NOTE
-==> You can access the website live at: https://kvg-disease-predictor.herokuapp.com <br>
-==> Python version 3.6.8 was used for the whole project.<br>
-==> You can find all the models in [models](https://github.com/venugopalkadamba/Multi_Disease_Predictor/tree/master/models) folder.
 
 ## Steps to run the WebApp in local Computer
 **Step-1:** Download the files in the repository.<br>
