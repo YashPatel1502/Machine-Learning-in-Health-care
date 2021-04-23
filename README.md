@@ -49,4 +49,4 @@ All the datasets were used from kaggle.
 * [Breast Cancer Notebook](https://github.com/YashPatel1502/Machine-Learning-in-Health-care/blob/b14e7bca7071432229dde3d18b0cba9e5410dabb/Python%20Notebooks/Cancer_Prediction.ipynb)
 * [Heart Disease Notebook](https://github.com/YashPatel1502/Machine-Learning-in-Health-care/blob/7b5f6beef9a2a386691d805325892fc74e10e592/Python%20Notebooks/Heart_Disease_Prediction.ipynb)
 * [Kidney Disease Notebook](https://github.com/YashPatel1502/Machine-Learning-in-Health-care/blob/abe642effc743e9ac7db27c240ff437e9df1f6cc/Python%20Notebooks/Kidney_Disease_Prediction.ipynb)
-* [Liver Disease Notebook](https://github.com/venugopalkadamba/Multi_Disease_Predictor/blob/master/Python%20Notebooks/Liver_Disease_Prediction.ipynb)
+* [Liver Disease Notebook](https://github.com/YashPatel1502/Machine-Learning-in-Health-care/blob/2ce60aa6939edbb93140cd89a622e240a0a6ed16/Python%20Notebooks/Liver_Disease_Prediction.ipynb)
