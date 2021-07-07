@@ -1,6 +1,4 @@
-# Developed by students of DEPSTAR CSE2 
-## Yash D. Patel
-
+# Developed Yash D. Patel
 
 # ----------Multiple Disease Predictor ----------
 ## About
