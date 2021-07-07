@@ -1,4 +1,4 @@
-# Developed Yash D. Patel
+# Developed by Yash D. Patel
 
 # ----------Multiple Disease Predictor ----------
 ## About
