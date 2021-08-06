@@ -16,5 +16,5 @@ urllib3==1.25.9
 requests==2.23.0
 pickleshare==0.7.5
 Pillow==7.2.0
-tensorflow==2.5.1
+tensorflow==1.15
 
