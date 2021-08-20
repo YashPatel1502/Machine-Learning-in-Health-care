@@ -34,6 +34,9 @@ pip install -r requirements.txt
 ```python
 python app.py
 ```
+# Research Paper Link
+https://www.researchgate.net/publication/351428649_Machine_Learning_in_HealthCare
+
 ## 
 ## Dataset Links
 All the datasets were used from kaggle.
