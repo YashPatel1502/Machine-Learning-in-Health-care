@@ -21,7 +21,8 @@ Heart Disease | Logistic Regression | 88.53%
 Kidney Disease | Random Forest & Naive Bayes | 100%
 Liver Disease | XGBoost | 77.77%
 
-
+## Heroku
+*(https://yash-future-healthcare-ai.herokuapp.com/)
 
 
 ## Steps to run the WebApp in local Computer
